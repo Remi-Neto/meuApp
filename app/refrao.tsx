@@ -11,13 +11,6 @@ export default function Refrao() {
 
     return (
         <View style={styles.container}>
-            <Button
-                title="Ir para detalhes"
-                onPress={() => router.push('/detalhes')}
-            />
-            <text>
-                Ou...
-            </text>
             <View style={styles.row}>
                 <Button
                     title="Tipo Lutador | Chrono"

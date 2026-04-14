@@ -1,5 +1,5 @@
 import { useRouter } from 'expo-router';
-import { Button, Image, StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 
 var tocando = false;
 
@@ -20,27 +20,6 @@ export default function Detalhes() {
             <Text>
                 Ivan, Thomaz, Jane, Priscila, Rodrigo, Janaira
             </Text>
-
-            <Button
-                title='Ir para detalhes'
-                onPress={() => router.push('/detalhes')}>
-            </Button>
-            <text>
-                ou
-            </text>
-            <Button
-                title='Reproduzir um áudio motivação'
-                onPress={(function () {
-                    if (tocando == false) {
-                        audio.play();
-                        tocando = true;
-                    } else {
-                        audio.pause();
-                        tocando = false
-                    }
-                })
-                }>
-            </Button>
         </View>
     );
 }
