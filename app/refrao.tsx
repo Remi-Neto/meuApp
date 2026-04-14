@@ -25,7 +25,7 @@ export default function Refrao() {
                     }}
                 />
 
-                <Text style={styles.text}>|</Text>
+                <Text style={styles.text}></Text>
 
                 <Button //"Tipo Lutador |Chrono"
                     title='PapelDeUmRei |PDBata'
@@ -54,6 +54,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     text: {
-        marginHorizontal: 10,
+        marginHorizontal: 20,
     },
 });
